@@ -15,13 +15,17 @@ root.render(
   <React.StrictMode>
     <Routes>
       <Header />
+
       <Route exact path='/'>
         <Home />
       </Route>
+
       <Route path='/about'>
         <About />
       </Route>
+
       <Cards />
+      
     </Routes>
     
   </React.StrictMode>
