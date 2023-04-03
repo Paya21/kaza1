@@ -1,8 +1,13 @@
-
+import Header from "../component/Header";
+import Card from "../component/Card";
 
 function Home() {
   return (
-    <h1>Tout commence içi ?</h1>
+    <div>   
+    <Header />
+    <Card />
+    </div>
+
   );
 }
 
