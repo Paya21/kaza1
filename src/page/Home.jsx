@@ -1,11 +1,14 @@
 import Header from "../component/Header";
-import Card from "../component/Card";
+import Body from "../component/Body";
+import Footer from "../component/Footer";
+
 
 function Home() {
   return (
     <div>   
     <Header />
-    <Card />
+    <Body />
+    <Footer />
     </div>
 
   );

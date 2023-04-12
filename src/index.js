@@ -5,13 +5,14 @@ import './index.css';
 
 import Home from './page/Home';
 import About from './page/About';
-
 import Card from './page/Card';
+import ErrorPage from './page/Error';
 
 const router = createBrowserRouter([
   {
   path:"/",
-  element: <Home />
+  element: <Home />,
+  errorElement: <ErrorPage />
   },
   {
     path: "/about",

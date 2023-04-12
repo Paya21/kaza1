@@ -1,0 +1,150 @@
+.global
+{
+    color: #ff6060;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-cover
+{
+    margin:auto;
+    width: 87%;
+    height: 415px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.carousel-prev
+{
+    position: absolute;
+    left: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.carousel-next
+{
+    position: absolute;
+    right: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.carousel-img
+{
+    width: 100%;
+    border-radius: 25px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.global-name
+{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 30px;
+    width: 87%;
+}
+
+.logement-host
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logement-host > img 
+{
+    border-radius: 70px;
+    width: 30%;
+    margin-left: 10px;
+}
+
+.logement-collapse
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 87%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.logement-host-name
+{
+    width: 30%;
+}
+
+.logement-rating
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.logement-tags > span
+{
+    color: white;
+    background-color: #ff6060;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.logement-tags
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.slide-number
+{
+    position: absolute;
+    color: white;
+    left: 600px;
+    bottom: 20px;
+}
+
+@media screen and (max-width: 840px)
+{
+    .logement-infos
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logement-ti 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logement-host
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .global-name
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logement-collapse
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,42 @@
+.banner-title
+{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 43px;
+    width: 56%;
+    padding-left: 315px;
+}
+
+.div-banner
+{
+    position: relative;
+    height: 200px;
+    width: 86%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.banner-img
+{
+    position: relative;
+    z-index: 1;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+    border-radius: 25px;
+}
+
+@media  screen and (max-width: 840px) {
+
+    .banner-title
+    {
+        padding-left: 20px;
+        font-size: 30px;
+        text-align: start;
+        width: 67%;
+    }
+}
